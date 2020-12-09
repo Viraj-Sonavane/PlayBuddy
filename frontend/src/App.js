@@ -1,11 +1,11 @@
 import React from 'react';
 import Main from './Main';
-import Header from './Header';
+import TopBar from './TopBar'
 
 function App() {
   return (
     <>
-      <Header />
+      <TopBar/>
       <Main />
     </>
   );
